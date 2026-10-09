@@ -2,11 +2,8 @@
 /*
 !/.gitignore
 !/README.md
-!/SOURCES.md
 !/HW/
 !/Slides/
-!/Exams/
-!/COMP5331-WrittenNotes-*.pdf
 
 # Homework: original question papers and reference solutions, grouped by semester.
 /HW/**
@@ -21,12 +18,6 @@
 !/Slides/*.pdf
 !/Slides/README.md
 /Slides/otherClustering.pptx
-
-# Past papers can be added directly here, preferably under a semester folder.
-/Exams/**
-!/Exams/**/
-!/Exams/**/README.md
-!/Exams/**/*.pdf
 
 # Finder metadata and Office lock files are always local.
 .DS_Store
