@@ -2,14 +2,15 @@
 /*
 !/.gitignore
 !/README.md
-!/HW/
+!/Hw/
 !/Slides/
+!/Exams/
 
 # Homework: original question papers and reference solutions, grouped by semester.
-/HW/**
-!/HW/*/
-!/HW/*/hw[0-9]*.pdf
-!/HW/*/README.md
+/Hw/**
+!/Hw/*/
+!/Hw/*/hw[0-9]*.pdf
+!/Hw/*/README.md
 
 # Original lecture slides. The named PPTX is an existing local conversion of the PPT.
 /Slides/**
@@ -18,6 +19,11 @@
 !/Slides/*.pdf
 !/Slides/README.md
 /Slides/otherClustering.pptx
+
+# Past-exam PDFs, either here or in a semester subfolder.
+/Exams/**
+!/Exams/**/
+!/Exams/**/*.pdf
 
 # Finder metadata and Office lock files are always local.
 .DS_Store
