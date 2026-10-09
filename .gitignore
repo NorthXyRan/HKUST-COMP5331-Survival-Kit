@@ -1,0 +1,36 @@
+# Keep this repository in the existing study folder; track only the categories below.
+/*
+!/.gitignore
+!/README.md
+!/SOURCES.md
+!/HW/
+!/Slides/
+!/Exams/
+!/COMP5331-WrittenNotes-*.pdf
+
+# Homework: original question papers and reference solutions, grouped by semester.
+/HW/**
+!/HW/*/
+!/HW/*/hw[0-9]*.pdf
+!/HW/*/README.md
+
+# Original lecture slides. The named PPTX is an existing local conversion of the PPT.
+/Slides/**
+!/Slides/*.ppt
+!/Slides/*.pptx
+!/Slides/*.pdf
+!/Slides/README.md
+/Slides/otherClustering.pptx
+
+# Past papers can be added directly here, preferably under a semester folder.
+/Exams/**
+!/Exams/**/
+!/Exams/**/README.md
+!/Exams/**/*.pdf
+
+# Finder metadata and Office lock files are always local.
+.DS_Store
+._*
+~$*
+*.tmp
+*.temp
